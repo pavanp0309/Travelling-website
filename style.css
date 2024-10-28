@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Noto+Serif+Oriya:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* global styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
