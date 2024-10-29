@@ -10,3 +10,10 @@
   font-weight: 300;
   font-style: normal;
 }
+
+
+/* banners styles */
+.banner-img{
+  width: 100% !important;
+  height: 200px;
+}
