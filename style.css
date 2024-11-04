@@ -24,6 +24,32 @@
   height: 40vh;
 }
 
+
+
+
+/* newsletter section  start */
+.news-letter{
+  background-image: url('./asserts/c1.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+/* newsletter section  end */
+
+/* tours section */
+.tours-img{
+  width: 100%;
+  height: 250px;
+}
+
+.rating-section>p,span{
+  font-size: .8rem !important;
+  color:rgba(18, 15, 11, 0.728);
+}
+.tours-des{
+  font-size: .67rem !important;
+}
+
+
 @media screen and (max-width:576px) {
   .carousel-item>.carousel-img{
     width: 100%;
