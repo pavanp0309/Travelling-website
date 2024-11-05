@@ -48,7 +48,38 @@
 .tours-des{
   font-size: .67rem !important;
 }
+/* services styles  */
+.services-card{
+  transition: all 2s linear;
+}
+.services-card:hover{
+  background-color:#2ecc71;
+  transform: scale(.98);
+}
 
+.btn-chatnow{
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  z-index: 1000;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ 
+}
+/* about us page styles */
+.img-guide{
+  transition: all 1.5s linear;
+}
+.img-guide:hover{
+  transform:  translate(10PX,-5PX);
+}
+
+.guide-card{
+  transition:  all 2s linear;
+}
+
+.guide-card:hover{
+  transform:rotate(5deg) scale(.98) ;
+}
 
 @media screen and (max-width:576px) {
   .carousel-item>.carousel-img{

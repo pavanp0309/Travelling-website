@@ -78,6 +78,71 @@ border border-dark shadow my-3 rounded-3">
 <!-- subscribe button end -->
 </section>
 <!-- newsletter section end -->
+
+<!-- chatwith-us-Button start -->
+
+<button class="btn rounded-pill px-3 shadow btn-chatnow"  data-bs-target="#exampleModalToggle" data-bs-toggle="modal" style="background-color: orangered;z-index: 100;">GetInfo</button>
+
+<!-- chatwith-us-Button  end-->
+
+
+<!-- model Box start -->
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Helpus To Know More</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <!--  form  -->
+       <form class="row">
+        <!-- col-1 -->
+        <div class="col-md-12">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="ravikumar">
+            <label for="floatingInput">FullName</label>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="ravi@gmail.com">
+            <label for="floatingInput">Email</label>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-floating mb-3">
+            <input type="tel" class="form-control" id="floatingInput" placeholder="799452255">
+            <label for="floatingInput">MobileNo</label>
+          </div>
+        </div>
+       </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" type="submit" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 text-success" id="exampleModalToggleLabel2">SPTravells</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <img src="./asserts/thankyou.png" alt="" class="img-fluid img-thumbnail">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- model Box end -->
 <!-- footer section start -->
 <footer class="footer-section container-fluid p-3 bg-dark text-white">
   <div class="container">
